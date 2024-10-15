@@ -464,31 +464,6 @@ footer {
   background: #fff;
   border-radius: 4px;
 }
-/* Phong cách chung cho tiêu đề */
-#technologies .heading {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-/* Phong cách cho tiêu đề phần con (Mobile, Web, Code) */
-#technologies .sub-heading {
-  font-size: 20px;
-  color: #007bff;
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-
-/* Định dạng cho các phần chứa (section) */
-#technologies .section {
-  border: 2px solid #007bff; /* Viền màu xanh dương */
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-  background-color: #f1f9ff; /* Màu nền nhạt */
-}
-
 .project-image {
   float: left;
   width: 200px; /* Điều chỉnh kích thước phù hợp với thiết kế của bạn */
@@ -548,35 +523,23 @@ footer {
   cursor: default;
   font-size: 1.2em;
 }
-#technologies {
-  padding: 15px 15px;
-  text-align: center;
-  border: 1px solid #ccc;
-  padding: 20px;
+/* Phong cách cho tiêu đề phần con (Mobile, Web, Code) trong Technologies */
+#skills .sub-heading {
+  font-size: 20px;
+  color: #007BFF;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Định dạng cho các phần chứa (section) trong Technologies */
+#skills .section {
+  border: 2px solid #007BFF; /* Viền màu xanh dương */
+  padding: 15px;
   border-radius: 8px;
-  background-color: #f9f9f9;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #f1f9ff; /* Màu nền nhạt */
 }
-#technologies h2 {
-  color: #374054;
-  margin-bottom: 50px;
-}
-#technologies ul {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  max-width: 800px;
-}
-#technologies li {
-  display: inline-block;
-  margin: 7px;
-  padding: 5px 10px;
-  color: #374054;
-  background: #e4e4ea;
-  list-style: none;
-  cursor: default;
-  font-size: 1.2em;
-}
+
 #contact {
   padding: 50px 15px;
   background: #3498db;
