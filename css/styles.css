@@ -464,6 +464,48 @@ footer {
   background: #fff;
   border-radius: 4px;
 }
+/* Phong cách chung cho tiêu đề */
+.heading {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Phong cách cho tiêu đề phần con (Mobile, Web, Code) */
+.sub-heading {
+  font-size: 20px;
+  color: #007bff;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Định dạng cho các phần chứa (section) */
+.section {
+  border: 2px solid #007bff; /* Viền màu xanh dương */
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #f1f9ff; /* Màu nền nhạt */
+}
+
+/* Định dạng cho danh sách */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Định dạng cho các thẻ li bên trong section */
+.section li {
+  margin-left: 20px; /* Thụt lề để tạo bố cục rõ ràng */
+}
+
 .project-image {
   float: left;
   width: 200px; /* Điều chỉnh kích thước phù hợp với thiết kế của bạn */
@@ -524,8 +566,13 @@ footer {
   font-size: 1.2em;
 }
 #technologies {
-  padding: 50px 15px;
+  padding: 15px 15px;
   text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 #technologies h2 {
   color: #374054;
